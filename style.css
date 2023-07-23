@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --primary: #FE5F1E;
+    --primary-hover: #b23301;
+    --secondary: #FBFBF8;
+    --pure: #fff;
+    --dark: #232323;
+    --gray: #ccc;
+    --smooth: all .3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: .5rem .7rem;
+    background-color: var(--primary);
+    border: none;
+    color: var(--pure);
+    border-radius: .6rem;
+    cursor: pointer;
+    transition: var(--smooth);
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--dark);
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login {
+    background-color: var(--secondary);
+    min-height: 100vh;
+}
+
+.email {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.email label {
+    font-weight: 700;
+}
+
+.email input {
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.login-container {
+    width: 110%;
+    background-color: var(--pure);
+    box-shadow: 0 0 0.5rem gray;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.password {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.password label {
+    font-weight: 700;
+}
+
+.password input {
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+.submit-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.submit-area a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.username {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+}
+
+.username label {
+    font-weight: 700;
+}
+
+.username input {
+    margin: 1rem 0;
+    padding: .5rem;
+}
